@@ -1,0 +1,40 @@
+.main {
+  --padding-top: 1rem;
+  padding-top: var(--padding-top);
+  width: 100%;
+  height: calc(100vh - var(--padding-top));
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.input-group {
+  padding: 0.6rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-flow: column wrap;
+  align-items: space-between;
+}
+
+.input-group article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.input-group article input {
+  margin-left: 0.5rem;
+}
+
+.actions-group {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+}
