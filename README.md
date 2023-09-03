@@ -7,6 +7,5 @@ Create an app which raise awareness of speeding, and a tool for truck drivers to
 **PD**: The app will be prepared for cases were the speed limit it's uniform along the length of the track.
 
 ## TODOs:
-* Separate App.js in different components.
 * Add State Management to the form, so it can interact with the chart.
 * Add Feature where there can be more than 1 Line in the charts and with unique colors. 
