@@ -1,0 +1,10 @@
+.main {
+  --padding-top: 1rem;
+  padding-top: var(--padding-top);
+  width: 100%;
+  height: calc(100vh - var(--padding-top));
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(0,46,99,1) 80%, #0E0E10 100%);
+}
