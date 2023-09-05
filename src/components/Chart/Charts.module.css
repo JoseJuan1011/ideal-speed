@@ -1,8 +1,11 @@
-.main {
-  width: 100%;
+.charts {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.charts article {
+  width: 40rem;
+  height: 17rem;
 }

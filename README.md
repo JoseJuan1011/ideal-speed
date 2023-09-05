@@ -10,5 +10,5 @@ Create an app which raise awareness of speeding, and a tool for truck drivers to
 
 ## TODOs
 
-* Add State Management to the form, so it can interact with the chart.
-* Add Feature where there can be more than 1 Line in the charts and with unique colors.
+* Fix bug with [Charts](https://github.com/JoseJuan1011/ideal-speed/tree/state-management/src/components/Chart) Component, where the component itself doesn't update after further state change.
+* Add tests for better understanding of the application.

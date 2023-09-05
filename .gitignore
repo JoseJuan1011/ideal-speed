@@ -26,3 +26,4 @@ yarn-error.log*
 
 *.dia
 *.dia~
+.vscode/launch.json
