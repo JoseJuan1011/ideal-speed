@@ -14,24 +14,11 @@ import Form from "./Form/Form";
   }
 */
 /*
-  Format of Map for chart:
-  {
-    "track-length": number as key
-    "chart-Map": Map<speed: number, duration: float>
-  }
-*/
-/*
   The objective here will be to have one chart for every track length,
   so when the track length is the same but with different speed it calculates 
   the duration and adds it to the corresponding chart.
 */
 function App() {
-  // const DUMMY_DATA = [
-  //   { "track-length": 1, duration: 2.1 },
-  //   { "track-length": 2, duration: 1.4 },
-  //   { "track-length": 3, duration: 1.3 },
-  //   { "track-length": 4, duration: 0.2 },
-  // ];
   const HOUR_IN_MINUTES = 60;
 
   /*
