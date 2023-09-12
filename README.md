@@ -1,7 +1,6 @@
 # ideal-speed
 
 Ideal Speed it's a web app prepared to show you the differences of time between different speeds.
-Click [here](https://ideal-speed.onrender.com) to access the official preview of the application.
 
 ## Objective
 
