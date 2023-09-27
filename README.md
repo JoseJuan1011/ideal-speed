@@ -2,6 +2,8 @@
 
 Ideal Speed it's a web app prepared to show you the differences of time between different speeds.
 
+You can check the web [here](https://ideal-speed.onrender.com/)
+
 ## Objective
 
 Create an app which raise awareness of speeding, and a tool for truck drivers to calculate how many minutes they need to reach their destination, between other uses. 
