@@ -13,7 +13,6 @@ The app itself will use Kilometers as the main metric on their calculations.
 
 ## TODOs
 
-* Add onClick action for Reset Button.
 * Fix bug with [Charts](https://github.com/JoseJuan1011/ideal-speed/tree/state-management/src/components/Chart) Component, where the component itself doesn't update after further state change [(Issue)](https://github.com/JoseJuan1011/ideal-speed/issues/10).
 * Add tests for better understanding of the application.
 * Add more and better styles to the application.

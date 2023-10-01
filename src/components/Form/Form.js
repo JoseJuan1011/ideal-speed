@@ -34,6 +34,13 @@ export default function Form(props) {
     props.calculateHandler(userInput);
   }
 
+  const resetHandler = (e) => {
+    setUserInput({
+      speed: 1,
+      "track-length": 1,
+    })
+  }
+
   return (
     <form className={styles["form"]} onSubmit={submitHandler}>
       <section className={styles["input-group"]}>
@@ -59,7 +66,7 @@ export default function Form(props) {
           <Button type="submit" buttonType="primary">Calculate</Button>
         </article>
         <article id="reset-action">
-          <Button type="button" buttonType="secondary">Reset</Button>
+          <Button type="button" buttonType="secondary" onClick={resetHandler}>Reset</Button>
         </article>
       </section>
     </form>
